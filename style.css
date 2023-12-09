@@ -85,7 +85,7 @@ li {
 .two {
     display: flex;
     flex-direction: column;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
 }
 
 .two-title {
@@ -134,23 +134,23 @@ li {
 }
 
 .three {
-    flex: 4;
     background-color: #E5E7EB;
+    padding: 7em 13em 5em 13em;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .total-quote{
     display: flex;
     flex-direction: column;
-    width: 750px;
+    gap: 8px;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
-    margin-bottom: 8px;
 }
 
 .person {
