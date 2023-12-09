@@ -160,21 +160,20 @@ li {
 }
 
 .four {
-    flex: 3;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5em 13em;
 }
 
 .comment {
     background-color: #3882F6;
-    width: 650px;
-    height: 150px;
     border-radius: 8px;
-    padding: 0 125px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3em 5em;
+    flex: 1;
 }
 .call-title {
     font-size: 24px;
@@ -196,11 +195,10 @@ li {
 }
 
 .footer {
-    height: 64px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;padding: 2em 0;
 }
 
 .copyright {
