@@ -1,26 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
     height: 100vh;
     margin: 0;
-    justify-content: space-between;
-    height: 2000px;
+    padding: 0;
 }
 
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     background-color: #1F2937;
-    height: 64px;
+    padding: 1em 13em;
 }
 
 .title {
     font-size: 24px;
     font-weight: 800;
     color: #F9FAF8;
-    width: 450px;
 }
 
 ul {
@@ -28,10 +23,8 @@ ul {
     padding: 0;
     list-style-type: none;
     display: flex;
-    gap: 16px;
-    width: 450px;
-    justify-content: flex-end;
-
+    gap: 1em;
+    justify-content: center
 }
 
 li {
@@ -46,19 +39,18 @@ li {
 }
 
 .one {
-    flex: 4;
     background-color: #1F2937;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 4em 13em;
 }
 
 .hero {
-    width: 450px;
-    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
+    height: 240px;
 }
 
 .hero-title {
@@ -85,10 +77,10 @@ li {
 }
 
 .img {
-    width: 450px;
     height: 240px;
     background-color: #E5E7EB;
     opacity: 0.5;
+    width: 50%;
 }
 
 .two {
